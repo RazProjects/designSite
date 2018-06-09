@@ -8,51 +8,47 @@ html, body
 
 
 header	{
-	height: 6vh;
+	height: 8vh;
 	width: 100vw;
+	min-width: 500px;
 	background-color: #f4f4f4;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 
 .icons, #designSite{
-	font-size: 4vh;
+	font-size: 5vh;
 	margin: 1vh 1vh;
+	margin-left:  20px;
+	margin-right: 20px;
 	color: #2193b0;
+	padding-bottom: 1vh;
 }
 
 #designSite{
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
-#menu > ul {
-	background-color: white;
-	opacity: 0.8;
-	width: 15vw;
-	height: 25vh;
-	list-style-type: none;
-	text-align: left;
-	margin-top: 0px;
-	margin-left: 0px;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	
-}
-#menu > ul >li {
-	opacity: 1;
+	font-family:Lucida Sans Unicode;
 
 }
 
-.hide{
-	display: none;
-}
-.show{
-	display: block;
-}
+
+
 
 .container{
 	text-align: center;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	font-family:Lucida Sans Unicode;
+}
+
+footer{
+	text-align: center;
+	position: absolute;
+	bottom: 20vh;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family:Lucida Sans Unicode;
 }

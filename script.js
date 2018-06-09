@@ -8,6 +8,12 @@ color1.addEventListener('input', backgroundChange);
 color2.addEventListener('input', backgroundChange);
 
 
+
+// var menuLogo = document.querySelector('#menu').children[0];
+// menuLogo.addEventListener('click', function(){
+// 	document.querySelector("#menu").children[1].classList.toggle('show');
+// }) ;
+
 //function to change the background to  gradient
 function backgroundChange(){
 	body.style.background = 'linear-gradient(to right, '
@@ -17,17 +23,7 @@ function backgroundChange(){
 	+')';
 	
 	cssCode.innerHTML = "background : "+body.style.background+";";
+	color1.title = color1.value;
+	color2.title = color2.value;
 
-}
-
-
-var str = body.style.background;
-
-"linear-gradient(to right, rgb(33, 147, 176), rgb(109, 213, 237))";
-
-
-
-var menuLogo = document.querySelector('#menu').children[0];
-menuLogo.addEventListener('click', function(){
-	document.querySelector("#menu").children[1].classList.toggle('show');
-}) 
+};
