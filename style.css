@@ -37,9 +37,6 @@ header	{
 	text-align: left;
 	margin-top: 0px;
 	margin-left: 0px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	
@@ -48,8 +45,12 @@ header	{
 	opacity: 1;
 
 }
+
 .hide{
 	display: none;
+}
+.show{
+	display: block;
 }
 
 .container{

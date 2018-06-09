@@ -22,3 +22,12 @@ function backgroundChange(){
 
 
 var str = body.style.background;
+
+"linear-gradient(to right, rgb(33, 147, 176), rgb(109, 213, 237))";
+
+
+
+var menuLogo = document.querySelector('#menu').children[0];
+menuLogo.addEventListener('click', function(){
+	document.querySelector("#menu").children[1].classList.toggle('show');
+}) 
