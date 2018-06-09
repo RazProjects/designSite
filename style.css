@@ -1,0 +1,57 @@
+
+html, body
+{
+    height:100vh;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+header	{
+	height: 6vh;
+	width: 100vw;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.icons, #designSite{
+	font-size: 4vh;
+	margin: 1vh 1vh;
+	color: #2193b0;
+}
+
+#designSite{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#menu > ul {
+	background-color: white;
+	opacity: 0.8;
+	width: 15vw;
+	height: 25vh;
+	list-style-type: none;
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+}
+#menu > ul >li {
+	opacity: 1;
+
+}
+.hide{
+	display: none;
+}
+
+.container{
+	text-align: center;
+}
